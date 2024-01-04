@@ -10,6 +10,7 @@
   };
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nix.settings.trusted-users = [ "root" "logan" ];
 
   nix.gc = {
     automatic = lib.mkDefault true;
