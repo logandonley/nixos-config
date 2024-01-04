@@ -2,7 +2,8 @@
 { config, pkgs, ... }:
 
 {
-  packages.obs-studio = {
-    enabled = true;
-  };
+  home.packages = with pkgs; [
+    obs-studio
+    obs-cli
+  ];
 }
