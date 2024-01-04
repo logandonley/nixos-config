@@ -1,7 +1,8 @@
 {
   imports =
     [ 
-        ../../system/system.nix
+      ../../system/system.nix
+      ./streamdeck.nix
       ./hardware-configuration.nix
     ];
 
