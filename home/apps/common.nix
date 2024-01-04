@@ -34,7 +34,7 @@
     cachix
     go-task
 
-    obsidian
+    # obsidian
 
     streamdeck-ui
   ];
