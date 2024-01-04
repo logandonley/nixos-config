@@ -36,7 +36,8 @@
 
     playerctl
 
-    # obsidian
+    figma-linux
+    # obsidian - current electron version is marked as insecure
   ];
 
 }
