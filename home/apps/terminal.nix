@@ -5,9 +5,9 @@
     histSize = 20000;
 
     shellAliases = {
-      k = kubectl;
-      task = go-task;
-      v = nvim;
+      k = "kubectl";
+      task = "go-task";
+      v = "nvim";
     };
 
     ohMyZsh = {
