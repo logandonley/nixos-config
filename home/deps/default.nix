@@ -8,5 +8,8 @@
 
     python3
     black
+    isort
+
+    lua
   ];
 }
