@@ -30,5 +30,7 @@
 
     terraform
     pulumi-bin
+
+    cachix
   ];
 }
