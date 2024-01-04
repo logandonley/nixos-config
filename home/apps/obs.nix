@@ -4,5 +4,5 @@
 {
   packages.obs-studio = {
     enabled = true;
-  } 
+  };
 }
