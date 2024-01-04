@@ -2,7 +2,6 @@
 {
   programs.zsh = {
     enable = true;
-    histSize = 20000;
 
     shellAliases = {
       k = "kubectl";
