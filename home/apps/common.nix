@@ -34,6 +34,8 @@
     cachix
     go-task
 
+    playerctl
+
     # obsidian
   ];
 
