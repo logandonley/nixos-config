@@ -11,5 +11,7 @@
     isort
 
     lua
+
+    xclip
   ];
 }
