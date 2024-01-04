@@ -19,6 +19,16 @@
     ffmpeg
 
     blender
-    
+    gimp-with-plugins 
+
+    kubectl
+    kubernetes-helm
+    helmfile
+    k9s
+    kubectx
+    kind
+
+    terraform
+    pulumi-bin
   ];
 }
