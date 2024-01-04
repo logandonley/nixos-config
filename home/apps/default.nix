@@ -6,5 +6,6 @@
     ./obs.nix
     ./ide.nix
     ./browser.nix
+    ./terminal.nix
   ];
 }

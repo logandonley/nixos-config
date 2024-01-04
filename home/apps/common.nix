@@ -32,5 +32,6 @@
     pulumi-bin
 
     cachix
+    go-task
   ];
 }
