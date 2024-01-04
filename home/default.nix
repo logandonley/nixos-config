@@ -55,23 +55,6 @@
 
   };
 
-  home.packages = with pkgs; [
-    ripgrep
-    fd
-    jq
-    eza
-    gh
-    htop
-    fzf
-
-    helix
-
-    zip
-    xz
-    unzip
-    p7zip
-    
-  ];
 
   home.stateVersion = "23.11";
 
