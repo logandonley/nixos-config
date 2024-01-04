@@ -9,13 +9,14 @@
       v = "nvim";
     };
 
-    ohMyZsh = {
-      enable = true;
-      plugins = [
-        "z"
-        "git"
-      ];
-      theme = "af-magic";
+    oh-my-zsh = {
+     enable = true;
+     plugins = [
+       "z"
+       "git"
+     ];
+     theme = "af-magic";
     };
+
   };
 }
