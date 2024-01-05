@@ -2,15 +2,14 @@
   imports =
     [ 
       ../../system/system.nix
-      ./streamdeck.nix
-      ./hardware-configuration.nix
+      # ./hardware-configuration.nix
     ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  networking.hostName = "temple";
+  networking.hostName = "voyager";
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Enable networking
@@ -20,7 +19,6 @@
   # Enable the X11 windowing system.
   services.xserver = {
     enable = true;
-    videoDrivers = [ "nvidia" ];
 
     displayManager = {
       gdm.enable = true;
