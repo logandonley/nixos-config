@@ -14,8 +14,4 @@
     enable = true;
     package = pkgs.emacs29;
   };
-
-  home.profileExtra = ''
-    export PATH=$HOME/.config/emacs/bin:$PATH
-  '';
 }

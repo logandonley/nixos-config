@@ -11,6 +11,10 @@
       v = "nvim";
     };
 
+    initExtra = ''
+      export PATH="$HOME/.config/emacs/bin:$PATH"
+    '';
+
     oh-my-zsh = {
      enable = true;
      plugins = [
