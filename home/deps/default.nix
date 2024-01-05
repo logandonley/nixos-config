@@ -13,5 +13,8 @@
     lua
 
     xclip
+
+    shellcheck
+    pandoc
   ];
 }
