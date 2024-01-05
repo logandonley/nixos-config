@@ -5,4 +5,8 @@
     jetbrains.pycharm-professional
     jetbrains.goland
   ];
+
+  programs.vscode = {
+    enable = true;
+  };
 }
