@@ -9,4 +9,9 @@
   programs.vscode = {
     enable = true;
   };
+
+  programs.emacs = {
+    enable = true;
+    package = pkgs.emacs29;
+  };
 }
