@@ -51,8 +51,7 @@
   };
 
   programs.vscode = {
-	enable = true;
-
+    enable = true;
   };
 
 
