@@ -1,5 +1,3 @@
-{ config, pkgs, ... }:
-
 {
   imports = [
     ./common.nix
@@ -7,5 +5,6 @@
     ./ide.nix
     ./browser.nix
     ./terminal.nix
+    ./resolve.nix
   ];
 }

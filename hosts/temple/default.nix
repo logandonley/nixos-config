@@ -3,7 +3,6 @@
     [ 
       ../../system/system.nix
       ./streamdeck.nix
-      ./resolve.nix
       ./hardware-configuration.nix
     ];
 
