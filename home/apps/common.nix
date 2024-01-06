@@ -41,6 +41,8 @@
 
     ollama
     oterm
+
+    calibre
   ];
 
 }
