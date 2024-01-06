@@ -8,7 +8,7 @@
     shellAliases = {
       k = "kubectl";
       task = "go-task";
-      v = "nvim";
+      v = "steam-run nvim";
     };
 
     initExtra = ''

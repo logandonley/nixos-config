@@ -43,6 +43,8 @@
     oterm
 
     calibre
+
+    steam-run
   ];
 
 }
