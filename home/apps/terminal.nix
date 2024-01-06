@@ -13,6 +13,7 @@
 
     initExtra = ''
       export PATH="$HOME/.config/emacs/bin:$PATH"
+      export PATH="$HOME/.nixos-config/bin:$PATH"
     '';
 
     oh-my-zsh = {

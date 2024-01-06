@@ -48,7 +48,7 @@
 
 
   environment.systemPackages = with pkgs; [ neovim wget curl git ];
-  environment.variables.EDITOR = "neovim";
+  environment.variables.EDITOR = "nvim";
 
 
   # Enable CUPS to print documents.

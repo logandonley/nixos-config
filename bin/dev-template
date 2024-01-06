@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+if [ -f flake.nix ]; then
+  echo "A flake.nix already exists in this directory"
+  exit 1
+fi
+
+BASE_PATH="$HOME/.nixos-config"
+TEMPLATE_PATH="$BASE_PATH/templates"
+
+# Select a template (dir) to use from the templates dir
+TEMPLATE=$(find $TEMPLATE_PATH -mindepth 1 -type d | fzf)
+
+# Copy the template to the current directory
+cp -r $TEMPLATE/flake.nix .
+
+echo "============================================================"
+echo " Created flake.nix from template: "
+echo "   $TEMPLATE"
+echo " Get started by running:" 
+echo " >  nix develop"
+echo "============================================================"
+
+
