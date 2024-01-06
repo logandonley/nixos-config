@@ -2,7 +2,7 @@
   imports =
     [ 
       ../../system/system.nix
-      # ./hardware-configuration.nix
+      ./hardware-configuration.nix
     ];
 
   # Bootloader.
