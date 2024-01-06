@@ -14,7 +14,11 @@
         system = "x86_64-linux";
         modules = [
           ./hosts/temple
-          ./system/rust.nix
+
+          ({ pkgs, ... }: {
+            nixpkgs.overlays = [ rust-overlay.overlays.default ];
+            environment.systemPackages = [ pkgs.rust-bin.stable.latest.default ];
+           })
 
           home-manager.nixosModules.home-manager
           {
