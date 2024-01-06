@@ -2,6 +2,7 @@
 {
   home.packages = with pkgs; [
     libgcc
+    zig
     nodejs_20
     go
     gopls
