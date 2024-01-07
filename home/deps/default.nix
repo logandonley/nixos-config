@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ pkgs, ... }:
 {
   home.packages = with pkgs; [
     nodejs_20
@@ -7,7 +7,6 @@
     pkg-config 
     gcc 
     openssl 
-    cargo 
     zig
     lua
 
