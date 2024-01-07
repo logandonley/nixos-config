@@ -9,6 +9,7 @@
     openssl 
     zig
     lua
+    rust-analyzer
 
     python3
     black
