@@ -1,17 +1,19 @@
 { config, pkgs, ... }:
 {
   home.packages = with pkgs; [
-    libgcc
-    zig
     nodejs_20
     go
     gopls
+    pkg-config 
+    gcc 
+    openssl 
+    cargo 
+    zig
+    lua
 
     python3
     black
     isort
-
-    lua
 
     xclip
 
