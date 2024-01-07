@@ -46,6 +46,9 @@
 
     steam-run # run normal binaries as a hack
     tlrc # tldr but in rust
+
+    graphviz
+    lldb
   ];
 
 }
