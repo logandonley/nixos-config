@@ -24,6 +24,10 @@
             eza
             fd
             rust-bin.beta.latest.default
+            rust-analyzer
+            cargo-watch
+            cargo-audit
+            rustup
           ];
 
           shellHook = ''
