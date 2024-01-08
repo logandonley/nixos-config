@@ -7,5 +7,6 @@
     ./ide.nix
     ./browser.nix
     ./terminal.nix
+    ./fun.nix
   ];
 }
