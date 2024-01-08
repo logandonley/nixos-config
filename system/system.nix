@@ -3,12 +3,14 @@
   users.users.logan = {
     isNormalUser = true;
     description = "Logan Donley";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
     shell = pkgs.zsh;
     packages = with pkgs; [
       firefox
     ];
   };
+
+  virtualisation.docker.enable = true;
 
   programs.zsh.enable = true;
 
