@@ -17,6 +17,7 @@
         devShells.default = mkShell {
           buildInputs = [
             inputs.pyfixed-nixpkgs.legacyPackages.${system}.python3
+            poetry
             openssl
             eza
             fd
