@@ -49,6 +49,8 @@
 
     graphviz
     lldb
+
+    bruno # A postman alternative
   ];
 
 }
