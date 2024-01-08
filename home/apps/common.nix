@@ -51,6 +51,8 @@
     lldb
 
     bruno # A postman alternative
+
+    devbox # simplified dev environments
   ];
 
 }

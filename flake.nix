@@ -8,7 +8,7 @@
     rust-overlay.url = "github:oxalica/rust-overlay";
   };
 
-  outputs = inputs@{ self, nixpkgs, home-manager, rust-overlay, ... }: {
+  outputs = { self, nixpkgs, home-manager, rust-overlay, ... }@inputs: {
     nixosConfigurations = {
       temple = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
