@@ -1,7 +1,7 @@
 { pkgs, lib, ... }: let username = "logan"; in {
 
   users.users.logan = {
-    isNormalUser = true;
+    isNormalUser = true; 
     description = "Logan Donley";
     extraGroups = [ "networkmanager" "wheel" "docker" ];
     shell = pkgs.zsh;
@@ -61,7 +61,7 @@
   # hardware.pulseaudio.enable = false;
   # security.rtkit.enable = true;
   services.pipewire = {
-    enable = false;
+    enable = lib.mkForce false;
     # alsa.enable = true;
     # alsa.support32Bit = true;
     # pulse.enable = true;
