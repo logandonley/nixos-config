@@ -1,5 +1,5 @@
 {
-  imports = [ ./apps ./deps ];
+  imports = [ ./apps ./deps ./theme ];
 
   home.username = "logan";
   home.homeDirectory = "/home/logan";
