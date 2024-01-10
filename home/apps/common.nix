@@ -53,6 +53,7 @@
     bruno # A postman alternative
 
     vlc
+    degit # Handy tool for cloning repos without git history
   ];
 
 }
