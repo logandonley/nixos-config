@@ -17,6 +17,7 @@
     p7zip
 
     ffmpeg
+    ffmpeg-normalize
 
     blender
     gimp-with-plugins 
