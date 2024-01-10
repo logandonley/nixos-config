@@ -55,6 +55,8 @@
 
     vlc
     degit # Handy tool for cloning repos without git history
+
+    backblaze-b2
   ];
 
 }
