@@ -45,6 +45,10 @@
   fonts = {
     packages = with pkgs; [
         (nerdfonts.override {fonts = ["JetBrainsMono"];})
+        league-spartan
+        ibm-plex
+        inter
+        noto-fonts
     ];
   };
 
