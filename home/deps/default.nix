@@ -1,12 +1,11 @@
-{ pkgs, ... }:
-{
+{ pkgs, ... }: {
   home.packages = with pkgs; [
     nodejs_20
     go
     gopls
-    pkg-config 
-    gcc 
-    openssl 
+    pkg-config
+    gcc
+    openssl
     zig
     lua
     rust-analyzer
@@ -19,6 +18,7 @@
 
     stylelint
 
+    nil
 
     python3
     black
