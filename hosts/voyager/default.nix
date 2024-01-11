@@ -1,3 +1,4 @@
+{ pkgs, ...}:
 {
   imports =
     [ 
@@ -27,6 +28,8 @@
     desktopManager = {
       gnome.enable = true;
     };
+
+    excludePackages = [ pkgs.xterm ];
   };
 
   hardware.opengl = {
