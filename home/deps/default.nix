@@ -17,6 +17,7 @@
     gotools
 
     stylelint
+    typescript
     nodePackages.typescript-language-server
 
     nil
