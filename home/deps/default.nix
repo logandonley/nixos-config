@@ -10,6 +10,7 @@
     zig
     lua
     rust-analyzer
+    nixfmt
 
     python3
     black
