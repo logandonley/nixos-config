@@ -20,6 +20,7 @@
     typescript
     nodePackages.typescript-language-server
     nodePackages.prettier
+    zx
 
     nil
 
