@@ -1,8 +1,5 @@
 { pkgs, ... }:
 
 {
-  home.packages = with pkgs; [
-    obs-studio
-    obs-cli
-  ];
+  home.packages = with pkgs; [ obs-studio obs-cli ];
 }
