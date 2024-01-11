@@ -11,6 +11,14 @@
     lua
     rust-analyzer
     nixfmt
+    shfmt
+    gomodifytags
+    gotests
+    gore
+    gotools
+
+    stylelint
+
 
     python3
     black
