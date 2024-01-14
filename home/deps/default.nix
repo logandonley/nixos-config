@@ -22,6 +22,8 @@
     nodePackages.prettier
     zx
 
+    firejail
+
     nil
 
     python3
