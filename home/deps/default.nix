@@ -34,5 +34,4 @@
     pandoc
   ];
 
-  programs.firejail.enable = true;
 }
