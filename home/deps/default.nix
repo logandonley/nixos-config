@@ -22,8 +22,6 @@
     nodePackages.prettier
     zx
 
-    firejail
-
     nil
 
     python3
@@ -35,4 +33,6 @@
     shellcheck
     pandoc
   ];
+
+  programs.firejail.enable = true;
 }
