@@ -1,5 +1,4 @@
-{ pkgs, ... }:
-{
+{ pkgs, ... }: {
   home.packages = with pkgs; [
     ripgrep
     fd
@@ -20,7 +19,7 @@
     ffmpeg-normalize
 
     blender
-    gimp-with-plugins 
+    gimp-with-plugins
 
     kubectl
     kubernetes-helm
@@ -58,6 +57,8 @@
 
     backblaze-b2
     figlet
+
+    losslesscut-bin
   ];
 
 }
