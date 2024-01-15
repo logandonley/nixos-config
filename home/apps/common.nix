@@ -41,7 +41,7 @@
     # obsidian - current electron version is marked as insecure
 
     ollama
-    oterm
+    # oterm - Causing trouble
 
     calibre
 
