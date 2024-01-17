@@ -59,8 +59,8 @@
     figlet
 
     losslesscut-bin
-  ];
 
-  services.dropbox = { enable = true; };
+    dropbox
+  ];
 
 }
