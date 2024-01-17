@@ -61,6 +61,7 @@
     losslesscut-bin
 
     maestral # Dropbox client
+    maestral-gui
   ];
 
 }
