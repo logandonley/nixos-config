@@ -59,6 +59,8 @@
     figlet
 
     losslesscut-bin
+
+    dropbox
   ];
 
 }
