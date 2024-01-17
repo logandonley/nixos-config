@@ -63,6 +63,6 @@
     dropbox
   ];
 
-  service.dropbox.enable = true;
+  services.dropbox.enable = true;
 
 }
