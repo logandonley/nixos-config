@@ -60,9 +60,7 @@
 
     losslesscut-bin
 
-    dropbox
+    maestral # Dropbox client
   ];
-
-  services.dropbox.enable = true;
 
 }
