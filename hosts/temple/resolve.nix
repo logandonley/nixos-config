@@ -1,7 +1,3 @@
-{ pkgs, ... }:
-{
-  environment.systemPackages = with pkgs; [
-    davinci-resolve-studio
-    cudatoolkit
-  ];
+{ pkgs, ... }: {
+  environment.systemPackages = with pkgs; [ davinci-resolve-studio ];
 }

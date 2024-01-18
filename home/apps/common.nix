@@ -18,7 +18,6 @@
     ffmpeg
     ffmpeg-normalize
 
-    blender
     gimp-with-plugins
 
     kubectl

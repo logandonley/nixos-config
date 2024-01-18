@@ -5,6 +5,7 @@
     ./resolve.nix
     ./hardware-configuration.nix
     ./steam.nix
+    ./blender.nix
   ];
 
   # Bootloader.
@@ -28,7 +29,6 @@
 
     excludePackages = [ pkgs.xterm ];
   };
-
 
   programs.firejail.enable = true;
 
