@@ -15,6 +15,7 @@
     gotests
     gore
     gotools
+    templ
 
     stylelint
     typescript
