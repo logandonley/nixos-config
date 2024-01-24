@@ -1,9 +1,7 @@
 {
   programs.zsh = {
     enable = true;
-    history = {
-      size = 20000;
-    };
+    history = { size = 20000; };
 
     shellAliases = {
       k = "kubectl";
@@ -18,12 +16,9 @@
     '';
 
     oh-my-zsh = {
-     enable = true;
-     plugins = [
-       "z"
-       "git"
-     ];
-     theme = "af-magic";
+      enable = true;
+      plugins = [ "z" "git" ];
+      theme = "af-magic";
     };
 
   };
@@ -31,5 +26,6 @@
   programs.direnv = {
     enable = true;
     enableZshIntegration = true;
+    nix-direnv.enable = true;
   };
 }
