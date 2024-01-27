@@ -62,9 +62,7 @@
     maestral # Dropbox client
     maestral-gui
 
-    # Going to compare and see which one is better
     anytype
-    appflowy
   ];
 
 }
