@@ -63,6 +63,8 @@
     maestral-gui
 
     anytype
+    
+    cloudflared
   ];
 
 }
