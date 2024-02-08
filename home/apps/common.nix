@@ -63,8 +63,12 @@
     maestral-gui
 
     anytype
-    
+
     cloudflared
+
+    zim
+    qownnotes
+    qc
   ];
 
 }

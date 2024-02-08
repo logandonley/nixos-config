@@ -13,6 +13,8 @@
       export PATH="$HOME/.config/emacs/bin:$PATH"
       export PATH="$HOME/.nixos-config/bin:$PATH"
       export PATH="$HOME/.scripts/bin:$PATH"
+
+      set -o vi
     '';
 
     oh-my-zsh = {
