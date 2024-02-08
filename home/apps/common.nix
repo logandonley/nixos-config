@@ -8,8 +8,6 @@
     htop
     fzf
 
-    helix
-
     zip
     xz
     unzip

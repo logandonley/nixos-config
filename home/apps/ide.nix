@@ -61,4 +61,29 @@
     package = pkgs.emacs29;
     extraPackages = epkgs: [ epkgs.vterm ];
   };
+
+  programs.helix = {
+    enable = true;
+    settings = {
+      theme = "snazzy";
+
+      editor = {
+        line-number = "relative";
+
+        cursor-shape = {
+          insert = "bar";
+          normal = "block";
+          select = "underline";
+        };
+      };
+
+      keys.normal = {
+        space.space = "file_picker";
+      };
+    };
+
+    languages = {
+      
+    };
+  };
 }
