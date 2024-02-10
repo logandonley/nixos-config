@@ -67,6 +67,8 @@
     zim
     qownnotes
     qc
+
+    diskonaut
   ];
 
 }
