@@ -69,6 +69,8 @@
     qc
 
     diskonaut
+
+    glow
   ];
 
 }
