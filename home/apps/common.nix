@@ -71,6 +71,7 @@
     diskonaut
 
     glow
+    imagemagick
   ];
 
 }
