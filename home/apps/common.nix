@@ -72,6 +72,8 @@
 
     glow
     imagemagick
+
+    mods
   ];
 
 }

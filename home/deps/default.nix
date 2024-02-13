@@ -33,6 +33,10 @@
 
     shellcheck
     pandoc
+
+    elixir
+    elixir-ls
+    livebook
   ];
 
 }
