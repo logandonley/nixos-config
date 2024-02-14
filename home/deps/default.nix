@@ -37,6 +37,8 @@
     elixir
     elixir-ls
     livebook
+
+    flutter
   ];
 
 }

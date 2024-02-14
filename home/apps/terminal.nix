@@ -6,7 +6,7 @@
     shellAliases = {
       k = "kubectl";
       task = "go-task";
-      v = "steam-run nvim";
+      v = "nvim";
     };
 
     initExtra = ''
@@ -15,6 +15,12 @@
       export PATH="$HOME/.scripts/bin:$PATH"
 
       set -o vi
+
+      # dashed_line() {
+      #   printf '%*s\n' "$COLUMNS" | tr ' ' '-'
+      # }
+      # export PROMPT='%{$FG[237]%}$(dashed_line)%{$reset_color%}» '
+      # export RPROMPT=""
     '';
 
     oh-my-zsh = {

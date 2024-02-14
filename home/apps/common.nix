@@ -74,6 +74,8 @@
     imagemagick
 
     mods
+
+    tenacity # Audacity fork
   ];
 
 }
