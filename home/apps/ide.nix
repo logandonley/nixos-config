@@ -4,6 +4,7 @@
     jetbrains.pycharm-professional
     jetbrains.goland
     jetbrains.rust-rover
+    android-studio
   ];
 
   programs.vscode = {
