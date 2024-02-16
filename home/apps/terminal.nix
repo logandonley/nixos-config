@@ -1,4 +1,7 @@
 {
+  programs.alacritty = {
+    enable = true;
+  };
   programs.zsh = {
     enable = true;
     history = { size = 20000; };
