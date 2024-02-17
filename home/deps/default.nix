@@ -8,6 +8,7 @@
     openssl
     zig
     lua
+    lua-language-server
     rust-analyzer
     nixfmt
     shfmt
@@ -21,6 +22,7 @@
     typescript
     nodePackages.typescript-language-server
     nodePackages.prettier
+    bun
     zx
 
     nil
@@ -39,6 +41,13 @@
     livebook
 
     flutter
+
+    vscode-langservers-extracted # html lang server
+    htmx-lsp
+    tailwindcss-language-server
+    emmet-ls
+    dockerfile-language-server-nodejs
+    eslint_d
   ];
 
 }

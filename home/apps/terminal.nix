@@ -12,15 +12,6 @@
         };
         size = 20.0;
       };
-      keyboard = {
-        bindings = [
-          {
-            key = "Return";
-            mods = "Control|Shift";
-            action = "SpawnNewInstance";
-          }
-        ];
-      };
       colors = {
         primary = {
           background = "#0d1117";

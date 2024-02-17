@@ -1,4 +1,4 @@
-{ pkgs, lib, ... }: let username = "logan"; in {
+{ pkgs, lib, ... }: {
 
   users.users.logan = {
     isNormalUser = true; 
