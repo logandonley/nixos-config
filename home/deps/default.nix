@@ -8,6 +8,7 @@
     openssl
     zig
     lua
+    stylua
     lua-language-server
     rust-analyzer
     nixfmt
@@ -48,6 +49,9 @@
     emmet-ls
     dockerfile-language-server-nodejs
     eslint_d
+
+    sqlite
+    inotify-tools
   ];
 
 }
