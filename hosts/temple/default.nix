@@ -23,11 +23,40 @@
     enable = true;
     videoDrivers = [ "nvidia" ];
 
-    displayManager = { gdm.enable = true; };
+    displayManager = {
+      gdm.enable = true;
+      defaultSession = "none+awesome";
+      sessionCommands = ''
+        ${pkgs.xorg.xrandr}/bin/xrandr --output HDMI-0 --off --output DP-0 --mode 2560x1440 --rate 74.92 --pos 5120x0 --rotate left --output DP-1 --off --output DP-2 --mode 2560x1440 --rate 164.96 --pos 0x299 --rotate normal --output DP-3 --off --output DP-4 --primary --mode 2560x1440 --rate 144 --pos 2560x299 --rotate normal --output DP-5 --off
+      '';
+    };
+
+    windowManager.awesome = {
+      enable = true;
+      luaModules = with pkgs.luaPackages; [ luarocks luadbi-mysql ];
+
+    };
 
     desktopManager = { gnome.enable = true; };
+  };
 
-    excludePackages = [ pkgs.xterm ];
+  services.picom = { enable = true; };
+
+  services.redshift = {
+    enable = true;
+    brightness = {
+      day = "1";
+      night = "1";
+    };
+    temperature = {
+      day = 5500;
+      night = 3500;
+    };
+  };
+
+  location = {
+    latitude = 35.779591;
+    longitude = -78.638176;
   };
 
   programs.firejail.enable = true;

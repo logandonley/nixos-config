@@ -76,6 +76,7 @@
     mods
 
     tenacity # Audacity fork
+    safeeyes
   ];
 
 }
