@@ -31,6 +31,10 @@
     python3
     black
     isort
+    ruff
+    ruff-lsp
+    uv
+    nodePackages.pyright
 
     xclip
 

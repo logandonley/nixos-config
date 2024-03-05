@@ -76,7 +76,11 @@
       plugins = [ "z" "git" ];
       theme = "af-magic";
     };
+  };
 
+  programs.wezterm = {
+    enable = true;
+    enableZshIntegration = true;
   };
 
   programs.direnv = {

@@ -77,6 +77,9 @@
 
     tenacity # Audacity fork
     safeeyes
+
+    distrobox
+    zoom-us
   ];
 
 }

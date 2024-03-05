@@ -1,10 +1,5 @@
-{ pkgs, ...}:
-{
-  imports =
-    [ 
-      ../../system/system.nix
-      ./hardware-configuration.nix
-    ];
+{ pkgs, ... }: {
+  imports = [ ../../system/system.nix ./hardware-configuration.nix ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
@@ -16,34 +11,27 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
-
   # Enable the X11 windowing system.
   services.xserver = {
     enable = true;
 
-    displayManager = {
-      gdm.enable = true;
-    };
+    displayManager = { gdm.enable = true; };
 
-    desktopManager = {
-      gnome.enable = true;
-    };
+    desktopManager = { gnome.enable = true; };
 
     excludePackages = [ pkgs.xterm ];
   };
 
-  hardware.opengl = {
-    enable = true;
-  };
-
+  hardware.opengl = { enable = true; };
 
   # Configure keymap in X11
   services.xserver = {
-    layout = "us";
-    xkbVariant = "";
+    xkb = {
+      layout = "us";
+      variant = "";
+    };
   };
 
-
-  system.stateVersion = "23.11"; 
+  system.stateVersion = "23.11";
 
 }
