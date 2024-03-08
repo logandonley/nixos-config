@@ -80,6 +80,11 @@
 
     distrobox
     zoom-us
+
+    variety
+    gnome.gnome-boxes
+    pywal
+    rofi
   ];
 
 }

@@ -8,5 +8,6 @@
     ./browser.nix
     ./terminal.nix
     ./fun.nix
+    ./dunst.nix
   ];
 }

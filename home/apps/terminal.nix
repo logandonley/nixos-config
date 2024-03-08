@@ -62,6 +62,7 @@
       export PATH="$HOME/.scripts/bin:$PATH"
 
       set -o vi
+      (cat ~/.cache/wal/sequences &)
 
       # dashed_line() {
       #   printf '%*s\n' "$COLUMNS" | tr ' ' '-'

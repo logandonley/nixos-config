@@ -56,6 +56,9 @@
 
     sqlite
     inotify-tools
+
+    feh
+    imlib2Full
   ];
 
 }
