@@ -9,5 +9,6 @@
     ./terminal.nix
     ./fun.nix
     ./dunst.nix
+    ./rofi.nix
   ];
 }

@@ -36,7 +36,7 @@
     figma-linux
     # obsidian - current electron version is marked as insecure
 
-    ollama
+    (ollama.override { acceleration = "cuda"; })
     # oterm - Causing trouble
 
     calibre
@@ -84,7 +84,7 @@
     variety
     gnome.gnome-boxes
     pywal
-    rofi
+    xcb-util-cursor
   ];
 
 }
