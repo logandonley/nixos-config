@@ -4,6 +4,7 @@
   programs.rofi = {
     enable = true;
     plugins = [ pkgs.rofi-emoji ];
-    theme = "Arc-Dark";
+    theme = "gruvbox-dark";
+    font = "BlexMono Nerd Font 12";
   };
 }
