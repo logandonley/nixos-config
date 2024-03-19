@@ -23,6 +23,7 @@
     typescript
     nodePackages.typescript-language-server
     nodePackages.prettier
+    nodePackages.svelte-language-server
     bun
     zx
 
@@ -59,6 +60,16 @@
 
     feh
     imlib2Full
+
+    ghc
+    stack
+    cabal-install
+    haskell-language-server
+
+    elmPackages.elm
+    elmPackages.elm-language-server
+    elmPackages.elm-test
+    elmPackages.elm-format
   ];
 
 }

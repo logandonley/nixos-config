@@ -83,8 +83,13 @@
 
     variety
     gnome.gnome-boxes
-    pywal
-    xcb-util-cursor
+
+    kdePackages.kdenlive
+    glaxnimate
+    kdePackages.breeze-icons
+
+    remnote
+    obsidian
   ];
 
 }
