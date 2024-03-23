@@ -16,7 +16,7 @@
     ffmpeg
     ffmpeg-normalize
 
-    gimp-with-plugins
+    gimp
 
     kubectl
     kubernetes-helm

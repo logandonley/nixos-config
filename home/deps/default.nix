@@ -70,6 +70,8 @@
     elmPackages.elm-language-server
     elmPackages.elm-test
     elmPackages.elm-format
+
+    yaml-language-server
   ];
 
 }
