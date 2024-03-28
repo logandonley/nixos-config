@@ -7,9 +7,6 @@
     gcc
     openssl
     zig
-    lua
-    stylua
-    lua-language-server
     rust-analyzer
     nixfmt
     shfmt
@@ -72,6 +69,16 @@
     elmPackages.elm-format
 
     yaml-language-server
+
+    lua54Packages.lua
+    stylua
+    lua-language-server
+
+    lua54Packages.fennel
+    fennel-ls
+    fnlfmt
+
+    readline
   ];
 
 }

@@ -90,6 +90,8 @@
 
     remnote
     obsidian
+
+    exercism
   ];
 
 }

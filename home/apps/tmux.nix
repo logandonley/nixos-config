@@ -2,8 +2,9 @@
   programs.tmux = {
     enable = true;
     extraConfig = ''
-      bind | split-window -h
-      bind - split-window -v
+      bind c new-window       -c "#{pane_current_path}"
+      bind | split-window -h  -c "#{pane_current_path}"
+      bind - split-window -v  -c "#{pane_current_path}"
       bind h select-pane -L
       bind l select-pane -R
       bind j select-pane -D
