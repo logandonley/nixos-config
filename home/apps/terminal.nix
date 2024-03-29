@@ -63,7 +63,7 @@
 
     oh-my-zsh = {
       enable = true;
-      plugins = [ "z" "git" ];
+      plugins = [ "z" "git" "mix" ];
       theme = "af-magic";
     };
   };
