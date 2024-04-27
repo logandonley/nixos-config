@@ -92,6 +92,9 @@
     obsidian
 
     exercism
+
+    freecad
+    openscad
   ];
 
 }

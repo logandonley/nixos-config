@@ -8,7 +8,7 @@
     openssl
     zig
     rust-analyzer
-    nixfmt
+    nixfmt-classic
     shfmt
     gomodifytags
     gotests
@@ -21,6 +21,7 @@
     nodePackages.typescript-language-server
     nodePackages.prettier
     nodePackages.svelte-language-server
+    nodePackages."@astrojs/language-server"
     bun
     zx
 
