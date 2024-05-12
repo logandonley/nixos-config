@@ -10,6 +10,5 @@
     ./fun.nix
     ./dunst.nix
     ./rofi.nix
-    ./wireshark.nix
   ];
 }

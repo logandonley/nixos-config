@@ -6,6 +6,7 @@
     ./hardware-configuration.nix
     ./steam.nix
     ./blender.nix
+    ./wireshark.nix
   ];
 
   # Bootloader.
