@@ -95,6 +95,9 @@
 
     freecad
     openscad
+
+    pomodoro-gtk
+    gamemode
   ];
 
 }

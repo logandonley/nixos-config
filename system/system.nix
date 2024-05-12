@@ -1,13 +1,11 @@
 { pkgs, lib, ... }: {
 
   users.users.logan = {
-    isNormalUser = true; 
+    isNormalUser = true;
     description = "Logan Donley";
-    extraGroups = [ "networkmanager" "wheel" "docker" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" "wireshark" ];
     shell = pkgs.zsh;
-    packages = with pkgs; [
-      firefox
-    ];
+    packages = with pkgs; [ firefox ];
   };
 
   virtualisation.docker.enable = true;
@@ -41,21 +39,18 @@
     LC_TIME = "en_US.UTF-8";
   };
 
-
   fonts = {
     packages = with pkgs; [
-        (nerdfonts.override {fonts = ["JetBrainsMono" "IBMPlexMono"];})
-        league-spartan
-        ibm-plex
-        inter
-        noto-fonts
+      (nerdfonts.override { fonts = [ "JetBrainsMono" "IBMPlexMono" ]; })
+      league-spartan
+      ibm-plex
+      inter
+      noto-fonts
     ];
   };
 
-
   environment.systemPackages = with pkgs; [ neovim wget curl git ];
   environment.variables.EDITOR = "nvim";
-
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
