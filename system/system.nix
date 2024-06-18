@@ -46,6 +46,7 @@
       ibm-plex
       inter
       noto-fonts
+      google-fonts-roboto
     ];
   };
 

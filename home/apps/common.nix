@@ -60,8 +60,6 @@
     maestral # Dropbox client
     maestral-gui
 
-    anytype
-
     cloudflared
 
     zim
@@ -98,6 +96,23 @@
 
     pomodoro-gtk
     gamemode
+
+    wireshark
+
+    networkmanagerapplet
+
+    slack
+    discord
+
+    renoise
+    yabridge
+    bitwig-studio
+
+    vcv-rack
+    cardinal
+    calf
+
+    anki-bin
   ];
 
 }

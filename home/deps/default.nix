@@ -80,6 +80,12 @@
     fnlfmt
 
     readline
+
+    jdk
+    clojure
+    babashka
+    leiningen
+    cljfmt
   ];
 
 }

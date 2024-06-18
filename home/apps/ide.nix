@@ -3,6 +3,7 @@
     jetbrains.webstorm
     jetbrains.pycharm-professional
     jetbrains.goland
+    jetbrains.idea-ultimate
     jetbrains.rust-rover
     android-studio
   ];
@@ -78,13 +79,11 @@
         };
       };
 
-      keys.normal = {
-        space.space = "file_picker";
-      };
+      keys.normal = { space.space = "file_picker"; };
     };
 
     languages = {
-      
+
     };
   };
 }
