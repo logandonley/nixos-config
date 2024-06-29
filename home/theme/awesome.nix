@@ -8,7 +8,7 @@
       package = pkgs.gnome.gnome-themes-extra;
     };
     font = {
-      name = "Iosevka Nerd Font";
+      name = "IBM Plex Sans";
       size = 10;
     };
     iconTheme = { name = "Adwaita-dark"; };
