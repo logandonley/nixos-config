@@ -1,10 +1,8 @@
-{ pkgs, ... }:
-{
-  home.packages = with pkgs; [
-    brave
-  ];
+{ pkgs, ... }: {
+  home.packages = with pkgs;
+    [
+      # brave
+    ];
 
-  programs.firefox = {
-    enable = true;
-  };
+  programs.firefox = { enable = true; };
 }

@@ -6,6 +6,7 @@
     jetbrains.idea-ultimate
     jetbrains.rust-rover
     android-studio
+    zed-editor
   ];
 
   programs.vscode = {

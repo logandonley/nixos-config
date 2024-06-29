@@ -86,6 +86,8 @@
     babashka
     leiningen
     cljfmt
+
+    racket
   ];
 
 }

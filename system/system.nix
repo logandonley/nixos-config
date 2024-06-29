@@ -41,12 +41,14 @@
 
   fonts = {
     packages = with pkgs; [
-      (nerdfonts.override { fonts = [ "JetBrainsMono" "IBMPlexMono" ]; })
+      (nerdfonts.override {
+        fonts = [ "JetBrainsMono" "IBMPlexMono" "Iosevka" "IosevkaTerm" ];
+      })
       league-spartan
       ibm-plex
       inter
       noto-fonts
-      google-fonts-roboto
+      iosevka
     ];
   };
 

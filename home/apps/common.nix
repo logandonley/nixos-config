@@ -104,15 +104,9 @@
     slack
     discord
 
-    renoise
-    yabridge
-    bitwig-studio
-
-    vcv-rack
-    cardinal
-    calf
-
     anki-bin
+
+    blueman
   ];
 
 }
