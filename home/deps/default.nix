@@ -33,7 +33,7 @@
     ruff
     ruff-lsp
     uv
-    nodePackages.pyright
+    pyright
 
     xclip
 
