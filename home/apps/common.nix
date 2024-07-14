@@ -91,8 +91,8 @@
 
     exercism
 
-    freecad
-    openscad
+    # freecad
+    # openscad
 
     pomodoro-gtk
     gamemode

@@ -5,7 +5,7 @@
     ./resolve.nix
     ./hardware-configuration.nix
     ./steam.nix
-    ./blender.nix
+    # ./blender.nix
     ./wireshark.nix
   ];
 

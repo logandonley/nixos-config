@@ -44,12 +44,15 @@
       k = "kubectl";
       task = "go-task";
       v = "nvim";
+      pbcopy = "xclip -selection clipboard";
+      pbpaste = "xclip -selection clipboard -o";
     };
 
     initExtra = ''
       export PATH="$HOME/.config/emacs/bin:$PATH"
       export PATH="$HOME/.nixos-config/bin:$PATH"
       export PATH="$HOME/.scripts/bin:$PATH"
+      export PATH="$HOME/go/bin/:$PATH"
 
       set -o vi
 
