@@ -5,6 +5,7 @@
     jetbrains.goland
     jetbrains.idea-ultimate
     jetbrains.rust-rover
+    jetbrains.rider
     android-studio
     zed-editor
   ];

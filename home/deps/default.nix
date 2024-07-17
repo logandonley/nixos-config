@@ -88,6 +88,8 @@
     cljfmt
 
     racket
+
+    dotnet-sdk_8
   ];
 
 }
