@@ -90,6 +90,10 @@
     racket
 
     dotnet-sdk_8
+
+    crystal
+    shards
+    crystalline
   ];
 
 }
