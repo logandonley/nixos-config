@@ -94,6 +94,8 @@
     crystal
     shards
     crystalline
+
+    terraform-ls
   ];
 
 }
