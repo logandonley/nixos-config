@@ -107,6 +107,7 @@
     anki-bin
 
     blueman
+    pavucontrol
   ];
 
 }
