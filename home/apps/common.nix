@@ -108,6 +108,8 @@
 
     blueman
     pavucontrol
+
+    rclone
   ];
 
 }
