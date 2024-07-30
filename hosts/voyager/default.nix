@@ -1,5 +1,6 @@
 { pkgs, ... }: {
-  imports = [ ../../system/system.nix ./hardware-configuration.nix ];
+  imports =
+    [ ../../system/system.nix ./hardware-configuration.nix ./tailscale.nix ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
@@ -12,15 +13,10 @@
   networking.networkmanager.enable = true;
 
   # Enable the X11 windowing system.
-  services.xserver = {
-    enable = true;
+  services.xserver = { enable = true; };
 
-    displayManager = { gdm.enable = true; };
-
-    desktopManager = { gnome.enable = true; };
-
-    excludePackages = [ pkgs.xterm ];
-  };
+  services.displayManager.sddm.enable = true;
+  services.desktopManager.plasma6.enable = true;
 
   hardware.opengl = { enable = true; };
 
@@ -29,9 +25,10 @@
     xkb = {
       layout = "us";
       variant = "";
+      options = "caps:swapescape";
     };
   };
 
-  system.stateVersion = "23.11";
+  system.stateVersion = "24.05";
 
 }

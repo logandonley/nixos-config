@@ -36,7 +36,7 @@
     figma-linux
     # obsidian - current electron version is marked as insecure
 
-    (ollama.override { acceleration = "cuda"; })
+    # (ollama.override { acceleration = "cuda"; })
     # oterm - Causing trouble
 
     calibre
@@ -110,6 +110,8 @@
     pavucontrol
 
     rclone
+
+    kmonad
   ];
 
 }

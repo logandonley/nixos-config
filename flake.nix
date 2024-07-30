@@ -50,9 +50,7 @@
             home-manager.useUserPackages = true;
 
             home-manager.extraSpecialArgs = inputs;
-            home-manager.users.logan = {
-              imports = [ ./home ./home/theme/awesome.nix ];
-            };
+            home-manager.users.logan = { imports = [ ./home ]; };
           }
         ];
       };
