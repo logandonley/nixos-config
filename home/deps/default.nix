@@ -22,6 +22,7 @@
     nodePackages.prettier
     nodePackages.svelte-language-server
     nodePackages."@astrojs/language-server"
+    vue-language-server
     bun
     zx
 
