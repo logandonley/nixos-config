@@ -5,7 +5,7 @@
       shell = "zsh";
       scrolling = { history = 20000; };
       font = {
-        normal = { family = "Iosevka Nerd Font"; };
+        normal = { family = "IosevkaTerm Nerd Font"; };
         size = 16.0;
       };
       colors = {
