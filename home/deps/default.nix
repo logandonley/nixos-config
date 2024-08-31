@@ -17,6 +17,7 @@
     templ
 
     yarn
+    gnumake
 
     stylelint
     typescript
