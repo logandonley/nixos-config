@@ -16,6 +16,8 @@
     gotools
     templ
 
+    yarn
+
     stylelint
     typescript
     nodePackages.typescript-language-server
