@@ -4,9 +4,8 @@
     userName = "Logan Donley";
     userEmail = "hello@logandonley.com";
     extraConfig = {
-      init = { 
-        defaultBranch = "main";
-      };
+      init = { defaultBranch = "main"; };
+      push = { autoSetupRemote = true; };
     };
   };
 }

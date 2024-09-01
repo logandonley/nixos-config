@@ -71,10 +71,10 @@
     };
   };
 
-  programs.wezterm = {
-    enable = true;
-    enableZshIntegration = true;
-  };
+  # programs.wezterm = {
+  #   enable = true;
+  #   enableZshIntegration = true;
+  # };
 
   programs.direnv = {
     enable = true;

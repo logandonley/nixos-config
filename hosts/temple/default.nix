@@ -67,6 +67,7 @@
   programs.firejail.enable = true;
 
   hardware.opengl = { enable = true; };
+  hardware.nvidia = { open = false; };
 
   # Configure keymap in X11
   services.xserver = {
@@ -76,6 +77,6 @@
     };
   };
 
-  system.stateVersion = "23.11";
+  system.stateVersion = "24.05";
 
 }
