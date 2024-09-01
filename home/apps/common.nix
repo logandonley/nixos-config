@@ -26,6 +26,11 @@
     kind
 
     terraform
+    vagrant
+    packer
+    vault
+
+    opentofu
     pulumi-bin
 
     cachix
