@@ -116,6 +116,11 @@
     rclone
 
     kmonad
+
+    colmena
+    sops
+    age
+    yq
   ];
 
 }
