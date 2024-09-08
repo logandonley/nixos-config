@@ -121,6 +121,9 @@
     sops
     age
     yq
+
+    rancher
+    r2modman
   ];
 
 }
