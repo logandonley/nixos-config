@@ -13,7 +13,7 @@
     gomodifytags
     gotests
     gore
-    gotools
+    # gotools
     templ
 
     yarn
@@ -48,7 +48,7 @@
     elixir-ls
     livebook
 
-    flutter
+    # flutter
 
     vscode-langservers-extracted # html lang server
     htmx-lsp
@@ -100,6 +100,11 @@
     crystalline
 
     terraform-ls
+
+    ruby
+    rubyfmt
+    ruby-lsp
+    rubocop
   ];
 
 }

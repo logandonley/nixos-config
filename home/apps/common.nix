@@ -34,7 +34,7 @@
     pulumi-bin
 
     cachix
-    go-task
+    # go-task
 
     playerctl
 
@@ -124,6 +124,10 @@
 
     rancher
     r2modman
+
+    lunacy
+
+    argocd
   ];
 
 }

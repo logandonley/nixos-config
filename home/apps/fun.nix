@@ -1,7 +1,7 @@
-{ pkgs, ... }:
-{
-  home.packages = with pkgs; [
-    ardour
-    reaper
-  ];
+{ pkgs, ... }: {
+  home.packages = with pkgs;
+    [
+      ardour
+      # reaper
+    ];
 }

@@ -3,12 +3,15 @@
   users.users.logan = {
     isNormalUser = true;
     description = "Logan Donley";
-    extraGroups = [ "networkmanager" "wheel" "docker" "wireshark" "audio" ];
+    extraGroups =
+      [ "networkmanager" "wheel" "docker" "wireshark" "audio" "libvirtd" ];
     shell = pkgs.zsh;
     packages = with pkgs; [ firefox ];
   };
 
   virtualisation.docker.enable = true;
+  virtualisation.libvirtd.enable = true;
+  programs.virt-manager.enable = true;
 
   programs.zsh.enable = true;
 

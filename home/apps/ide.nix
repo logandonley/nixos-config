@@ -4,7 +4,8 @@
     jetbrains.pycharm-professional
     jetbrains.goland
     jetbrains.idea-ultimate
-    jetbrains.rust-rover
+    # jetbrains.rust-rover
+    jetbrains.ruby-mine
     jetbrains.rider
     android-studio
     zed-editor
